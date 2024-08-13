@@ -42,13 +42,13 @@ key-mapping.preset = 'qwerty'
 # Drop it from your config, if you don't like this behavior
 # See https://nikitabobko.github.io/AeroSpace/guide#on-focus-changed-callbacks
 # See https://nikitabobko.github.io/AeroSpace/commands#move-mouse
-on-focused-monitor-changed = ['move-mouse monitor-lazy-center']
-on-focus-changed = "move-mouse window-lazy-center"
+# on-focused-monitor-changed = ['move-mouse monitor-lazy-center']
+# on-focus-changed = "move-mouse window-lazy-center"
 
 [workspace-to-monitor-force-assignment]
 1 = 'main'
-2 = ['LU28R55', 2]
-3 = ['PHL 241E1', 3]
+2 = ['LU28R55', 'T34w-30', 2]
+3 = ['PHL 241E1', 'LEN T24i-10', 3]
 
 # Gaps between windows (inner-*) and between monitor edges (outer-*).
 # Possible values:
