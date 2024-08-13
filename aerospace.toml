@@ -46,9 +46,17 @@ key-mapping.preset = 'qwerty'
 # on-focus-changed = "move-mouse window-lazy-center"
 
 [workspace-to-monitor-force-assignment]
-1 = 'main'
-2 = ['LU28R55', 'T34w-30', 2]
-3 = ['PHL 241E1', 'LEN T24i-10', 3]
+A = 'main'
+S = 'main'
+P = 'main'
+T = 'main'
+B = ['LU28R55', 'T34w-30', 2]
+V = ['LU28R55', 'T34w-30', 2]
+X = ['PHL 241E1', 'LEN T24i-10', 3]
+C = ['PHL 241E1', 'LEN T24i-10', 3]
+M = ['PHL 241E1', 'LEN T24i-10', 3]
+R = ['PHL 241E1', 'LEN T24i-10', 3]
+W = ['PHL 241E1', 'LEN T24i-10', 3]
 
 # Gaps between windows (inner-*) and between monitor edges (outer-*).
 # Possible values:
