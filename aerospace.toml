@@ -215,31 +215,6 @@ alt-shift-j = ['join-with down', 'mode main']
 alt-shift-k = ['join-with up', 'mode main']
 alt-shift-l = ['join-with right', 'mode main']
 
-#
-#739   | org.mozilla.firefox        | Firefox
-#762   | dev.warp.Warp-Stable       | Warp
-#783   | com.spotify.client         | Spotify
-#792   | com.tinyapp.DBngin         | DBngin
-#794   | com.apple.iCal             | Calendar
-#797   | com.goodsnooze.vivid       | Vivid
-#806   | dev.kdrag0n.MacVirt        | OrbStack
-#829   | com.apple.finder           | Finder
-#2515  | org.openvpn.client.app     | OpenVPN Connect
-#14545 | com.apple.iphonesimulator  | Simulator
-#47738 | us.zoom.xos                | zoom.us
-#50219 | com.postmanlabs.mac        | Postman
-#14817 | com.apple.Terminal         | Terminal
-#45762 | com.tinyapp.TablePlus      | TablePlus
-#12006 | net.whatsapp.WhatsApp      | ‎WhatsApp
-#42263 | com.apple.mail             | Mail
-#91879 | com.apple.keychainaccess   | Keychain Access
-#54758 | company.thebrowser.Browser | Arc
-#69929 | chat.rocket                | Rocket.Chat
-#49905 | com.tinyspeck.slackmacgap  | Slack
-#57351 | dev.zed.Zed                | Zed
-# Warp V, Arc A, Mail M, Calendar C, Slack X, WhatsApp W, Rocket.Chat R, TablePlus T, PostMan P, Spotify S, Zoom Z
-#
-
 [[on-window-detected]]
 if.app-id = 'company.thebrowser.Browser'
 run = "move-node-to-workspace A"
