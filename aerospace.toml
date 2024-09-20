@@ -66,12 +66,12 @@ W = ['PHL 241E1', 'LEN T24i-10', 3]
 #                 Monitor pattern is the same as for 'workspace-to-monitor-force-assignment'.
 #                 See: https://nikitabobko.github.io/AeroSpace/guide#assign-workspaces-to-monitors
 [gaps]
-inner.horizontal = 8
-inner.vertical = 8
-outer.left = 8
-outer.bottom = 8
-outer.top = [{ monitor.main = 8}, 45]
-outer.right = 8
+inner.horizontal = 10
+inner.vertical = 10
+outer.left = 10
+outer.bottom = 10
+outer.top = [{ monitor.main = 20}, 57]
+outer.right = 10
 
 # 'main' binding mode declaration
 # See: https://nikitabobko.github.io/AeroSpace/guide#binding-modes
@@ -138,7 +138,7 @@ alt-a = 'workspace A' # In your config, you can drop workspace bindings that you
 alt-b = 'workspace B'
 alt-c = 'workspace C'
 alt-d = 'workspace D'
-alt-e = 'workspace E'
+# alt-e = 'workspace E'
 alt-f = 'workspace F'
 alt-g = 'workspace G'
 alt-i = 'workspace I'
@@ -171,7 +171,7 @@ alt-shift-a = 'move-node-to-workspace A'
 alt-shift-b = 'move-node-to-workspace B'
 alt-shift-c = 'move-node-to-workspace C'
 alt-shift-d = 'move-node-to-workspace D'
-alt-shift-e = 'move-node-to-workspace E'
+# alt-shift-e = 'move-node-to-workspace E'
 alt-shift-f = 'move-node-to-workspace F'
 alt-shift-g = 'move-node-to-workspace G'
 alt-shift-i = 'move-node-to-workspace I'
