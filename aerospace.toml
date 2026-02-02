@@ -46,31 +46,26 @@ key-mapping.preset = 'qwerty'
 # on-focus-changed = "move-mouse window-lazy-center"
 
 [workspace-to-monitor-force-assignment]
-A = 'main'
-vivAldi = 'main'
-S = 'main'
-Spotify = 'main'
-P = 'main'
-Postman = 'main'
-T = 'main'
-Table = 'main'
-D = ['LU28R55', 'T34w-30', 2]
-vivaldi_B = ['LU28R55', 'T34w-30', 2]
+safari = ['main']
+spotify = ['sidecar', 'main']
+Postman = ['sidecar', 'main']
+tableplus = ['sidecar', 'main']
+gemini = ['LU28R55', 'T34w-30', 2]
 O = ['LU28R55', 'T34w-30', 2]
 V = ['LU28R55', 'T34w-30', 2]
-Vim = ['LU28R55', 'T34w-30', 2]
+nvim = ['LU28R55', 'T34w-30', 2]
 X = ['PHL 241E1', 'LEN T24i-10', 3]
-slXck = ['PHL 241E1', 'LEN T24i-10', 3]
+slack = ['PHL 241E1', 'LEN T24i-10', 3]
 C = ['PHL 241E1', 'LEN T24i-10', 3]
-Cal = ['PHL 241E1', 'LEN T24i-10', 3]
+calendar = ['PHL 241E1', 'LEN T24i-10', 3]
 M = ['PHL 241E1', 'LEN T24i-10', 3]
-Mail = ['PHL 241E1', 'LEN T24i-10', 3]
+mail = ['PHL 241E1', 'LEN T24i-10', 3]
 R = ['PHL 241E1', 'LEN T24i-10', 3]
 Rocketc = ['PHL 241E1', 'LEN T24i-10', 3]
 W = ['PHL 241E1', 'LEN T24i-10', 3]
-Wa = ['PHL 241E1', 'LEN T24i-10', 3]
+whatsapp = ['PHL 241E1', 'LEN T24i-10', 3]
 G = ['PHL 241E1', 'LEN T24i-10', 3]
-chatGpt = ['PHL 241E1', 'LEN T24i-10', 3]
+claude = ['PHL 241E1', 'LEN T24i-10', 3]
 1 = 1
 2 = 2
 3 = 3
@@ -83,12 +78,12 @@ chatGpt = ['PHL 241E1', 'LEN T24i-10', 3]
 #                 Monitor pattern is the same as for 'workspace-to-monitor-force-assignment'.
 #                 See: https://nikitabobko.github.io/AeroSpace/guide#assign-workspaces-to-monitors
 [gaps]
-inner.horizontal = 5
-inner.vertical = 5
-outer.left = 5
-outer.bottom = 5
-outer.top = [{ monitor.main = 5}, 45]
-outer.right = 5
+inner.horizontal = 0
+inner.vertical = 0
+outer.left = 0
+outer.bottom = 0
+outer.top = 0
+outer.right = 0
 
 # 'main' binding mode declaration
 # See: https://nikitabobko.github.io/AeroSpace/guide#binding-modes
@@ -151,28 +146,28 @@ alt-4 = 'workspace 4'
 # alt-7 = 'workspace 7'
 # alt-8 = 'workspace 8'
 # alt-9 = 'workspace 9'
-alt-a = 'workspace vivAldi' # In your config, you can drop workspace bindings that you don't need
-alt-b = 'workspace vivaldi_B'
-alt-c = 'workspace Cal'
+alt-a = 'workspace safari' # In your config, you can drop workspace bindings that you don't need
+alt-b = 'workspace gemini'
+alt-c = 'workspace calendar'
 alt-d = 'workspace D'
 # alt-e = 'workspace E'
 alt-f = 'workspace F'
-alt-g = 'workspace chatGpt'
+alt-g = 'workspace claude'
 alt-i = 'workspace I'
-alt-m = 'workspace Mail'
+alt-m = 'workspace mail'
 # alt-n = 'workspace N'
 alt-o = 'workspace O'
 alt-p = 'workspace Postman'
-alt-q = 'workspace Q'
+alt-q = 'workspace loom'
 alt-r = 'workspace Rocketc'
-alt-s = 'workspace Spotify'
-alt-t = 'workspace Table'
+alt-s = 'workspace spotify'
+alt-t = 'workspace tableplus'
 alt-u = 'workspace U'
-alt-v = 'workspace Vim'
-alt-w = 'workspace Wa'
-alt-x = 'workspace slXck'
+alt-v = 'workspace nvim'
+alt-w = 'workspace whatsapp'
+alt-x = 'workspace slack'
 alt-y = 'workspace Y'
-alt-z = 'workspace Zoom'
+alt-z = 'workspace zoom'
 
 # See: https://nikitabobko.github.io/AeroSpace/commands#move-node-to-workspace
 alt-shift-1 = 'move-node-to-workspace 1'
@@ -184,28 +179,28 @@ alt-shift-4 = 'move-node-to-workspace 4'
 #alt-shift-7 = 'move-node-to-workspace 7'
 #alt-shift-8 = 'move-node-to-workspace 8'
 #alt-shift-9 = 'move-node-to-workspace 9'
-alt-shift-a = 'move-node-to-workspace vivAldi'
-alt-shift-b = 'move-node-to-workspace vivaldi_B'
-alt-shift-c = 'move-node-to-workspace Cal'
+alt-shift-a = 'move-node-to-workspace safari'
+alt-shift-b = 'move-node-to-workspace gemini'
+alt-shift-c = 'move-node-to-workspace calendar'
 alt-shift-d = 'move-node-to-workspace D'
 # alt-shift-e = 'move-node-to-workspace E'
 alt-shift-f = 'move-node-to-workspace F'
-alt-shift-g = 'move-node-to-workspace chatGpt'
+alt-shift-g = 'move-node-to-workspace claude'
 alt-shift-i = 'move-node-to-workspace I'
-alt-shift-m = 'move-node-to-workspace Mail'
+alt-shift-m = 'move-node-to-workspace mail'
 alt-shift-n = 'move-node-to-workspace N'
 alt-shift-o = 'move-node-to-workspace O'
 alt-shift-p = 'move-node-to-workspace Postman'
-alt-shift-q = 'move-node-to-workspace Q'
+alt-shift-q = 'move-node-to-workspace loom'
 alt-shift-r = 'move-node-to-workspace Rocketc'
-alt-shift-s = 'move-node-to-workspace Spotify'
-alt-shift-t = 'move-node-to-workspace Table'
+alt-shift-s = 'move-node-to-workspace spotify'
+alt-shift-t = 'move-node-to-workspace tableplus'
 alt-shift-u = 'move-node-to-workspace U'
-alt-shift-v = 'move-node-to-workspace Vim'
-alt-shift-w = 'move-node-to-workspace Wa'
-alt-shift-x = 'move-node-to-workspace slXck'
+alt-shift-v = 'move-node-to-workspace nvim'
+alt-shift-w = 'move-node-to-workspace whatsapp'
+alt-shift-x = 'move-node-to-workspace slack'
 alt-shift-y = 'move-node-to-workspace Y'
-alt-shift-z = 'move-node-to-workspace Zoom'
+alt-shift-z = 'move-node-to-workspace zoom'
 
 # See: https://nikitabobko.github.io/AeroSpace/commands#workspace-back-and-forth
 alt-tab = 'workspace-back-and-forth'
@@ -234,31 +229,39 @@ alt-shift-l = ['join-with right', 'mode main']
 
 [[on-window-detected]]
 if.app-id = 'company.thebrowser.Browser'
-run = "move-node-to-workspace vivAldi"
+run = "move-node-to-workspace safari"
+
+[[on-window-detected]]
+if.app-id = 'app.zen-browser.zen'
+run = "move-node-to-workspace safari"
 
 [[on-window-detected]]
 if.app-id = 'com.vivaldi.Vivaldi'
-run = "move-node-to-workspace vivAldi"
+run = "move-node-to-workspace safari"
+
+[[on-window-detected]]
+if.app-id = 'com.wails.Loom'
+run = "move-node-to-workspace loom"
 
 [[on-window-detected]]
 if.app-id = 'dev.warp.Warp-Stable'
-run = "move-node-to-workspace Vim"
+run = "move-node-to-workspace nvim"
 
 [[on-window-detected]]
 if.app-id = 'com.apple.mail'
-run = "move-node-to-workspace Mail"
+run = "move-node-to-workspace mail"
 
 [[on-window-detected]]
 if.app-id = 'com.apple.iCal'
-run = "move-node-to-workspace Cal"
+run = "move-node-to-workspace calendar"
 
 [[on-window-detected]]
 if.app-id = 'com.tinyspeck.slackmacgap'
-run = "move-node-to-workspace slXck"
+run = "move-node-to-workspace slack"
 
 [[on-window-detected]]
 if.app-id = 'net.whatsapp.WhatsApp'
-run = "move-node-to-workspace Wa"
+run = "move-node-to-workspace whatsapp"
 
 [[on-window-detected]]
 if.app-id = 'chat.rocket'
@@ -266,7 +269,7 @@ run = "move-node-to-workspace Rocketc"
 
 [[on-window-detected]]
 if.app-id = 'com.tinyapp.TablePlus'
-run = "move-node-to-workspace Table"
+run = "move-node-to-workspace tableplus"
 
 [[on-window-detected]]
 if.app-id = 'com.postmanlabs.mac'
@@ -274,18 +277,24 @@ run = "move-node-to-workspace Postman"
 
 [[on-window-detected]]
 if.app-id = 'com.spotify.client'
-run = "move-node-to-workspace Spotify"
+run = "move-node-to-workspace spotify"
 
 [[on-window-detected]]
 if.app-id = 'us.zoom.xos'
-run = "move-node-to-workspace Zoom"
+run = "move-node-to-workspace zoom"
 
 [[on-window-detected]]
 if.app-id = 'com.openai.chat'
-run = "move-node-to-workspace chatGpt"
+run = "move-node-to-workspace claude"
 
 [[on-window-detected]]
 if.app-id = "com.mitchellh.ghostty"
-run = [
-    "layout floating"
-]
+run = "layout floating"
+
+[[on-window-detected]]
+if.app-id = 'com.google.antigravity'
+run = "move-node-to-workspace gemini"
+
+[[on-window-detected]]
+if.app-id = 'com.anthropic.claudefordesktop'
+run = "move-node-to-workspace claude"
